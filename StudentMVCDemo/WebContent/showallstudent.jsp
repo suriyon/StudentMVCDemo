@@ -31,12 +31,12 @@
 					<td>${student.id }</td>
 					<td>${student.name }</td>
 					<td>${student.age }</td>
-					<td>
+					<td align="center">
 						<a href="StudentController?action=edit&id=${student.id }">
 							<img src="images/edit.png">
 						</a>
 					</td>
-					<td>
+					<td align="center">
 						<a href="StudentController?action=delete&id=${student.id }">
 							<img src="images/edittrash.png">
 						</a>
